@@ -1,6 +1,11 @@
 @media (600px <= width <= 1000px) {
   .layout {
     transform: scale(0.7);
+    gap: 1rem;
+    max-width: 200vw;
+  }
+  .user .userChoice {
+    gap: 1vw;
   }
 }
 @media (width <= 600px) {
@@ -65,6 +70,15 @@
   .backgrundSVG {
     height: 100%;
     overflow-y: scroll;
+  }
+
+  .layout {
+    transform: scale(0.7);
+    gap: 3rem;
+    max-width: 200vw;
+  }
+  .user .userChoice {
+    gap: 2vw;
   }
 
   .reset {
