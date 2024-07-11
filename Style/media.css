@@ -59,3 +59,23 @@
     transform: scale(0.55);
   }
 }
+
+@media (orientation: landscape) {
+  body,
+  .backgrundSVG {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .reset {
+    bottom: 3vh;
+    position: relative;
+    left: -41vw;
+  }
+
+  .created {
+    bottom: 0;
+    position: relative;
+    left: 41vw;
+  }
+}
